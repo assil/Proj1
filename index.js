@@ -13,7 +13,7 @@ app.get('/', (req, res) => {
     })
 
     console.log(itemsvalue)
-    res.send(200).send(price)
+    res.send(200, price)
     //res.send(200, price) was undefined by npm start and changed
     })
 })
