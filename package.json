@@ -23,6 +23,7 @@
     "lodash": "^4.17.11",
     "node-html-parser": "^1.1.10",
     "request": "^2.88.0",
+    "save": "^2.3.2",
     "serverless-http": "^1.6.0"
   },
   "devDependencies": {
