@@ -9,9 +9,16 @@ app.get('/', (req, res) => {
     const json = JSON.parse(body)
     const price = _.get(json, 'items[0].curr')
     //const euro = items.find(({ curr }) => curr === 'EUR')
+    const choose = _.find(items, function() {
+        if (users, [curr: "EUR"]) {
+            return this
+        } else if (users, [curr: "USD"]) {
+            return this
+        }
+    })
 
     res.send(200, price)
-    console.log(euro)
+    console.log(choose)
     })
 })
 
