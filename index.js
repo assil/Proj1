@@ -10,9 +10,9 @@ app.get('/', (req, res) => {
     const price = _.get(json, 'items[0].curr')
     //const euro = items.find(({ curr }) => curr === 'EUR')
     const choose = _.find(items, function() {
-        if (users, [curr: "EUR"]) {
+        if ({curr: "EUR"}) {
             return this
-        } else if (users, [curr: "USD"]) {
+        } else if ({curr: "USD"}) {
             return this
         }
     })
